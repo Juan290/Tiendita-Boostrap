@@ -1,0 +1,14 @@
+.titulo{
+    color: rgb(84, 84, 223);
+    font-size: 50px;
+}
+.carruselCss{
+    width: 95%;
+}
+.subtitulo{
+    font-size: 36px;
+    color: rgb(255, 180, 41);
+}
+.cartas{
+    align-items: center;
+}
