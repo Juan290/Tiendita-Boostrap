@@ -2,6 +2,9 @@
     color: rgb(84, 84, 223);
     font-size: 50px;
 }
+.titulo:hover {
+    color: yellow;
+}
 .carruselCss{
     width: 95%;
 }
@@ -12,3 +15,38 @@
 .cartas{
     align-items: center;
 }
+.botonCarta{
+    width: 50px;
+    height:50px;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.botonCarta:hover{
+    background-color: aquamarine;
+    -webkit-transition: all 2s;
+    transition: all 2s;
+
+
+}
+.botonCarta:focus{
+    background-color: blueviolet;
+}
+
+.carticaSombra{
+    text-align: center;
+    -webkit-box-shadow: 15px -7px 5px 0px rgba(218, 218, 6, 0.788);
+-moz-box-shadow: 15px -7px 5px 0px rgba(214,26,214,1);
+box-shadow: 15px -7px 5px 0px rgba(218, 218, 6, 0.788);
+}
+
+@media (max-width: 575.98px) { 
+    .botonCarta{
+       font-size: 10px;
+        
+    }
+
+ }
